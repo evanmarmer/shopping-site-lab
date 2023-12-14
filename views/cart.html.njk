@@ -14,7 +14,7 @@
     {% for animal in animals %}
     <tr>
       <td>{{animal.name}}</td>
-      <td>{{animal.Quantity}}</td>
+      <td>{{animal.quantity}}</td>
       <td>{{animal.price.toFixed(2)}}</td>
       <td>{{(animal.price * animal.quantity).toFixed(2)}}</td>
     </tr>
